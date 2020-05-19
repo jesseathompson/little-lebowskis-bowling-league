@@ -5,7 +5,7 @@ const Game = require("../lib/models/Game");
 
 describe("Game tests", () => {
   it("Test adding players", () => {
-    const game = new Game();
+    const game = new Game(1);
     const playerOne = new Player("Walter Sobchak");
     const playerTwo = new Player("Donny");
 
