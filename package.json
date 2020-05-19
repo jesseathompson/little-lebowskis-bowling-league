@@ -1,0 +1,27 @@
+{
+  "name": "little-lebowskis-bowling-league",
+  "version": "1.0.0",
+  "description": "A bowling app REST API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --inspect=0.0.0.0:9003 index.js",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseathompson/little-lebowskis-bowling-league.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesseathompson/little-lebowskis-bowling-league/issues"
+  },
+  "homepage": "https://github.com/jesseathompson/little-lebowskis-bowling-league#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
