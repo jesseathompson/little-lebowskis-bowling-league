@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
   const formattedGames = gamesList.map((game) => {
     return formatGame(game);
   });
-  return res.json([formattedGames]);
+  return res.json(formattedGames);
 });
 
 app.post("/", (req, res) => {
